@@ -1,50 +1,48 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class StaticShotPool : MonoBehaviour {
-
+public class StaticShotPool : MonoBehaviour 
+{
     public static StaticShotPool Instance { get; private set; }
 
-    public GameObject shotPrefab;
-    public int size = 5;
-    public bool grow = true;
+    public GameObject ShotPrefab;
+    
+    private const int Size = 5;
+    private Queue<GameObject> _pool;
 
-    private Queue<GameObject> pool;
-
-    void Awake()
+    private void Awake()
     {
         Instance = this;
     }
 
-    void Start()
+    private void Start()
     {
-        pool = new Queue<GameObject>();
+        _pool = new Queue<GameObject>();
 
-        for(int i = 0; i < size; i++) {
-            GameObject go = GameObject.Instantiate(shotPrefab, transform) as GameObject;
-            go.SetActive(false);
-            pool.Enqueue(go);
+        for(var i = 0; i < Size; i++)
+        {
+            CreateNewShot(_pool);
         }
     }
 
     public GameObject GetShot()
     {
-        if (pool.Count == 0) {
-            if (!grow) {
-                return null;
-            }
-
-            GameObject go = GameObject.Instantiate(shotPrefab, transform) as GameObject;
-            go.SetActive(false);
-            return go;
-        }
-
-        return pool.Dequeue();
+        // TODO: This CreateNewShot here is temp and we should be prepare to handle a null
+        // returning from this function, as the firerate hasn't been decided yet.
+        return _pool.Count != 0 ? _pool.Dequeue() : CreateNewShot(_pool);
     }
 
     public void RecycleShot(GameObject go)
     {
         go.SetActive(false);
+        _pool.Enqueue(go);
+    }
+    
+    private GameObject CreateNewShot(Queue<GameObject> pool)
+    {
+        var go = Instantiate(ShotPrefab, transform);
+        go.SetActive(false);
         pool.Enqueue(go);
+        return go;
     }
 }

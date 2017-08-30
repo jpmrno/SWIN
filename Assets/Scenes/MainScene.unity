@@ -277,9 +277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57d5433820f39db4b93cb62f113d9cca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shotPrefab: {fileID: 1779421880766730, guid: 4dcd1e15fb87f1e48b7d6fd784add7e5, type: 2}
-  size: 5
-  grow: 1
+  ShotPrefab: {fileID: 1779421880766730, guid: 4dcd1e15fb87f1e48b7d6fd784add7e5, type: 2}
 --- !u!4 &1377315604
 Transform:
   m_ObjectHideFlags: 0
@@ -405,9 +403,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcde88719c53078438b6b9429bfb1a7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.08
-  boundary:
-    xMin: -6
-    xMax: 6
-  shotSpawn: {fileID: 1430451482}
-  fireRate: 0.2
+  ShotSpawn: {fileID: 1430451482}
+  Boundary:
+    XMin: -6
+    XMax: 6
