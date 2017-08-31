@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 
-public class BoundaryDestroyer : MonoBehaviour 
+public class BoundaryDestroyer : MonoBehaviour
 {
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit2D(Collider2D bolt)
     {
-        StaticShotPool.Instance.RecycleShot(other.gameObject);
+        bolt.GetComponent<PlayerShot>().Pool.RecycleShot(bolt.gameObject);
     }
 }
