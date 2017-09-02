@@ -7,13 +7,13 @@ public class Boundary1D
     public float XMax;
 }
 
-public class SpaceShipController : MonoBehaviour 
+public class SpaceShipController : MonoBehaviour
 {
     public Transform ShotSpawn;
     public Boundary1D Boundary;
 
-    private const float Speed = 0.08f;
-    private const float FireRate = 0.2F;
+    public float Speed;
+    public float FireRate;
 
     private float _remainingCoolDownTime;
 
@@ -50,12 +50,12 @@ public class SpaceShipController : MonoBehaviour
         // Get the bolt to shoot.
         var boltGameObject = StaticShotPool.Instance.GetShot();
         if (boltGameObject == null) return; // There was no bolt => cannot shoot.
-        
+
         // Position the bolt to be correctly fired & enable it
         boltGameObject.transform.position = ShotSpawn.position;
         boltGameObject.transform.rotation = ShotSpawn.rotation;
         boltGameObject.SetActive(true);
-        
+
         // Cold down the weapon
         _remainingCoolDownTime = FireRate;
     }

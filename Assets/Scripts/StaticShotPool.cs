@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class StaticShotPool : MonoBehaviour 
+public class StaticShotPool : MonoBehaviour
 {
     public static StaticShotPool Instance { get; private set; }
 
     public GameObject ShotPrefab;
-    
+
     private const int Size = 5;
     private Queue<GameObject> _pool;
 
@@ -29,7 +29,7 @@ public class StaticShotPool : MonoBehaviour
     {
         // TODO: This CreateNewShot here is temp and we should be prepare to handle a null
         // returning from this function, as the firerate hasn't been decided yet.
-        return _pool.Count != 0 ? _pool.Dequeue() : CreateNewShot(_pool);
+        return _pool.Count != 0 ? _pool.Dequeue() : CreateNewShot(_pool).Dequeue();
     }
 
     public void RecycleShot(GameObject go)
@@ -37,12 +37,12 @@ public class StaticShotPool : MonoBehaviour
         go.SetActive(false);
         _pool.Enqueue(go);
     }
-    
-    private GameObject CreateNewShot(Queue<GameObject> pool)
+
+    private Queue<GameObject> CreateNewShot(Queue<GameObject> pool)
     {
         var go = Instantiate(ShotPrefab, transform);
         go.SetActive(false);
         pool.Enqueue(go);
-        return go;
+        return pool;
     }
 }

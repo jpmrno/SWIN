@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 
-public class Bolt : MonoBehaviour 
+public class Bolt : MonoBehaviour
 {
-    private const float Speed = 5f;
+    public float Speed;
 
     private void Start ()
     {
