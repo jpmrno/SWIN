@@ -1,56 +1,62 @@
 ﻿using UnityEngine;
 
 [System.Serializable]
-public class Boundary1D {
-
-    public float xMin, xMax;
+public class Boundary1D
+{
+    public float XMin;
+    public float XMax;
 }
 
-public class SpaceShipController : MonoBehaviour {
+public class SpaceShipController : MonoBehaviour
+{
+    public Transform ShotSpawn;
+    public Boundary1D Boundary;
 
-    public float speed = 0.07f;
-    public Boundary1D boundary;
+    public float Speed;
+    public float FireRate;
 
-    public Transform shotSpawn;
+    private float _remainingCoolDownTime;
 
-    public float fireRate = 0.3F;
-    private float nextFire = 0.3F;
-    private float myTime = 0.0F;
-
-    void Start ()
-    {
-		
-	}
-	
-	void Update ()
+    private void Update ()
     {
         CheckInput();
-	}
+    }
 
-    void CheckInput()
+    private void CheckInput()
     {
         Vector2 pos = transform.position;
-        // Move
+        // Move input.
         // TODO: https://docs.unity3d.com/ScriptReference/Input.GetAxis.html
-        if (Input.GetKey(KeyCode.LeftArrow)) {
-            transform.position = new Vector2(Mathf.Clamp(pos.x - speed, boundary.xMin, boundary.xMax), pos.y);
-        } else if (Input.GetKey(KeyCode.RightArrow)) {
-            transform.position = new Vector2(Mathf.Clamp(pos.x + speed, boundary.xMin, boundary.xMax), pos.y);
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            transform.position = Move(pos.x - Speed, pos.y);
+        } else if (Input.GetKey(KeyCode.RightArrow))
+        {
+            transform.position = Move(pos.x + Speed, pos.y);
         }
 
-        myTime = myTime + Time.deltaTime;
-        if (Input.GetButton("Fire1") && myTime > nextFire) {
-            nextFire = myTime + fireRate;
+        // Only shoot if we are requested to and if the weapon has finished cooling down.
+        _remainingCoolDownTime -= Time.deltaTime;
+        if (Input.GetButton("Fire1") && _remainingCoolDownTime < 0) Shoot();
+    }
 
-            GameObject boltGameObject = StaticShotPool.Instance.GetShot();
-            if (boltGameObject != null) {
-                boltGameObject.transform.position = shotSpawn.position;
-                boltGameObject.transform.rotation = shotSpawn.rotation;
-                boltGameObject.SetActive(true);
+    private Vector2 Move(float newX, float newY)
+    {
+        return new Vector2(Mathf.Clamp(newX, Boundary.XMin, Boundary.XMax), newY);
+    }
 
-                nextFire = nextFire - myTime;
-                myTime = 0.0F;
-            }
-        }
+    private void Shoot()
+    {
+        // Get the bolt to shoot.
+        var boltGameObject = StaticShotPool.Instance.GetShot();
+        if (boltGameObject == null) return; // There was no bolt => cannot shoot.
+
+        // Position the bolt to be correctly fired & enable it
+        boltGameObject.transform.position = ShotSpawn.position;
+        boltGameObject.transform.rotation = ShotSpawn.rotation;
+        boltGameObject.SetActive(true);
+
+        // Cold down the weapon
+        _remainingCoolDownTime = FireRate;
     }
 }

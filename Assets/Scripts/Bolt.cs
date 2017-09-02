@@ -1,14 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Bolt : MonoBehaviour {
+public class Bolt : MonoBehaviour
+{
+    public float Speed;
 
-    public float speed = 1f;
-
-	void Start ()
+    private void Start ()
     {
-        Rigidbody rb = GetComponent<Rigidbody>();
-        rb.velocity = transform.up * speed;
-	}
+        var rb = GetComponent<Rigidbody>();
+        rb.velocity = transform.up * Speed;
+    }
 }
