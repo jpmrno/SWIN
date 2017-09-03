@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 212775414239081858}
   - component: {fileID: 61161699915901594}
   - component: {fileID: 50822944487471658}
-  - component: {fileID: 114311302717976204}
   - component: {fileID: 82073318701411972}
+  - component: {fileID: 114672045143099834}
   m_Layer: 0
   m_Name: Enemy Shot
   m_TagString: Shot
@@ -169,7 +169,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114311302717976204
+--- !u!114 &114672045143099834
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -177,10 +177,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1864709145576626}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bad896550c2adbf4db2b25a4da56c69f, type: 3}
+  m_Script: {fileID: 11500000, guid: aea940639a234514bd885b4e2c208ae8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 10
+  Speed: -3
 --- !u!212 &212775414239081858
 SpriteRenderer:
   m_ObjectHideFlags: 1

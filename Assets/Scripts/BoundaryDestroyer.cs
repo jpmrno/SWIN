@@ -2,8 +2,8 @@
 
 public class BoundaryDestroyer : MonoBehaviour
 {
-    private void OnTriggerExit2D(Collider2D bolt)
+    private void OnTriggerExit2D(Collider2D shot)
     {
-        bolt.GetComponent<PlayerShot>().Pool.RecycleShot(bolt.gameObject);
+        shot.GetComponent<Shot>().Recycle();
     }
 }

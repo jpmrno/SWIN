@@ -1,5 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using PlainObjects;
 using UnityEngine;
+using Random = System.Random;
 
 public class EnemiesManager : MonoBehaviour
 {
@@ -12,65 +16,73 @@ public class EnemiesManager : MonoBehaviour
 
     public Vector2 InitSpawnPosition;
     public Vector2 EndSpawnPosition;
-    public float HorizontalDistBetweenMonsters;
-    public float VerticalDistBetweenMonsters;
-
+    public float HorizontalDistBetweenEnemies;
+    public float VerticalDistBetweenEnemies;
 
     public float Speed;
     public float GoDownSpeed;
     public float MovingRateTime;
     public Direction CurrentDirection;
 
+    public float FireRate;
+    public int ShotPoolSize;
+
+    public GameObject EnemyShot;
     public GameObject Enemy1;
     public GameObject Enemy2;
     public int RowsWithEnemy1;
 
     private int _rows;
-    private int _monstersPerRow;
-    private GameObject[][] _monsters;
+    private int _enemiesPerRow;
+    private List<GameObject> Enemies { get; set; }
     private float _remainingTimeToMove;
     private Direction NextDirection { get; set; }
+
+    private float _remainingCoolDownTime;
+    private ShotPool ShotPool { get; set; }
+    private const bool ShotPoolGrow = false;
+
+    private readonly Random _random = new Random();
 
     private void Awake()
     {
         Instance = this;
+        ShotPool = new ShotPool(ShotPoolSize, ShotPoolGrow, EnemyShot);
+        Enemies = new List<GameObject>();
         _rows = CalculateRows();
-        _monstersPerRow = CalculateMonstersPerRow();
+        _enemiesPerRow = CalculateEnemiesPerRow();
     }
 
-    private int CalculateMonstersPerRow()
+    private int CalculateEnemiesPerRow()
     {
-       return (int) Math.Ceiling(Math.Abs(EndSpawnPosition.x - InitSpawnPosition.x) / HorizontalDistBetweenMonsters);
+        return (int) Math.Ceiling(Math.Abs(EndSpawnPosition.x - InitSpawnPosition.x) / HorizontalDistBetweenEnemies);
     }
 
     private int CalculateRows()
     {
-        return (int) Math.Round(Math.Abs(EndSpawnPosition.y - InitSpawnPosition.y) / VerticalDistBetweenMonsters);
+        return (int) Math.Round(Math.Abs(EndSpawnPosition.y - InitSpawnPosition.y) / VerticalDistBetweenEnemies);
     }
 
     // Use this for initialization
     private void Start () {
-        _monsters = new GameObject[_rows][];
         for (var i = 0; i < _rows; i++)
         {
-            var row = new GameObject[_monstersPerRow];
-            var y = InitSpawnPosition.y - VerticalDistBetweenMonsters * i;
+            var y = InitSpawnPosition.y - VerticalDistBetweenEnemies * i;
             var enemyModel = i < RowsWithEnemy1 ? Enemy1 : Enemy2;
-            for (var j = 0; j < _monstersPerRow; j++)
+            for (var j = 0; j < _enemiesPerRow; j++)
             {
-                var x = InitSpawnPosition.x + HorizontalDistBetweenMonsters * j;
+                var x = InitSpawnPosition.x + HorizontalDistBetweenEnemies * j;
                 var position = new Vector2(x, y);
-                // Create this kind of moster, without rotation
-                var monster = Instantiate(enemyModel, position, Quaternion.identity);
-                monster.name = BuildEnemyName(i, j);
-                monster.transform.SetParent(transform); // Set parent to this.
-                // Assign row and column inside its controller for a better search when deleted.
-                var monsterController = monster.GetComponent<EnemyController>();
-                monsterController.Row = i;
-                monsterController.Col = j;
-                row[j] = monster;
+                // Create this kind of enemy, without rotation.
+                var enemy = Instantiate(enemyModel, position, Quaternion.identity);
+                enemy.name = BuildEnemyName(i, j);
+                enemy.transform.SetParent(transform); // Set parent to this.
+                // Set itself as the manager.
+                var enemyController = enemy.GetComponent<EnemyController>();
+                enemyController.EnemiesManager = this;
+                // Add the enemy to the enemies trops.
+                Enemies.Add(enemy);
             }
-            _monsters[i] = row;
         }
 
     }
@@ -82,6 +94,39 @@ public class EnemiesManager : MonoBehaviour
 
     // Update is called once per frame
     public void Update()
+    {
+        MoveIfItsTimeTo();
+        ShootIfItsTimeTo();
+    }
+
+    private void ShootIfItsTimeTo()
+    {
+        // Only shoot if the weapon has finished cooling down.
+        _remainingCoolDownTime -= Time.deltaTime;
+        if (_remainingCoolDownTime > 0) return;
+        // Time to shoot
+        Shoot();
+        // Cold down the weapon
+        _remainingCoolDownTime = FireRate;
+    }
+
+    private void Shoot()
+    {
+        // Get the bolt to shoot.
+        GameObject boltGameObject = ShotPool.Dequeue();
+        if (boltGameObject == null) return; // There was no bolt => cannot shoot.
+
+        // Get a remaining enemy ship and make it shot
+        var enemy = Enemies.ElementAt(_random.Next(Enemies.Count));
+        var enemyController = enemy.GetComponent<EnemyController>();
+
+        // Position the bolt to be correctly fired & enable it
+        boltGameObject.transform.position = enemyController.ShotSpawn.position;
+        boltGameObject.transform.rotation = enemyController.ShotSpawn.rotation;
+        boltGameObject.SetActive(true);
+    }
+
+    private void MoveIfItsTimeTo()
     {
         // Only move when it's time to.
         _remainingTimeToMove -= Time.deltaTime;
@@ -125,5 +170,10 @@ public class EnemiesManager : MonoBehaviour
     public void ChangeDirection()
     {
         NextDirection = CurrentDirection == Direction.Right ? Direction.Left : Direction.Right;
+    }
+
+    public void DestroyEnemy(GameObject enemy)
+    {
+        Enemies.Remove(enemy);
     }
 }

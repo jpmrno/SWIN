@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using PlainObjects;
+using UnityEngine;
 
 [System.Serializable]
 public class Boundary1D
@@ -7,7 +8,7 @@ public class Boundary1D
     public float XMax;
 }
 
-public class SpaceShipController : MonoBehaviour
+public class PlayerShipController : MonoBehaviour
 {
     public Transform ShotSpawn;
     public Boundary1D Boundary;
@@ -15,7 +16,17 @@ public class SpaceShipController : MonoBehaviour
     public float Speed;
     public float FireRate;
 
+    public int ShotPoolSize;
+    public GameObject PlayerShot;
+
     private float _remainingCoolDownTime;
+    private ShotPool ShotPool { get; set; }
+    private const bool ShotPoolGrow = false;
+
+    private void Start()
+    {
+        ShotPool = new ShotPool(ShotPoolSize, ShotPoolGrow, PlayerShot);
+    }
 
     private void Update ()
     {
@@ -48,7 +59,7 @@ public class SpaceShipController : MonoBehaviour
     private void Shoot()
     {
         // Get the bolt to shoot.
-        var boltGameObject = StaticShotPool.Instance.GetShot();
+        GameObject boltGameObject = ShotPool.Dequeue();
         if (boltGameObject == null) return; // There was no bolt => cannot shoot.
 
         // Position the bolt to be correctly fired & enable it

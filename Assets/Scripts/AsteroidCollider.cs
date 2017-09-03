@@ -2,9 +2,11 @@
 
 public class AsteroidCollider : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
+        var go = other.gameObject;
+        if (go.CompareTag("Shot")) go.GetComponent<Shot>().Recycle();
+        else Destroy(go);
         Destroy(gameObject);
-        Destroy(other.gameObject);
     }
 }
