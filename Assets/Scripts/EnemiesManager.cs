@@ -19,6 +19,7 @@ public class EnemiesManager : MonoBehaviour
     public float HorizontalDistBetweenEnemies;
     public float VerticalDistBetweenEnemies;
 
+    public float AbsXBoundary;
     public float Speed;
     public float GoDownSpeed;
     public float MovingRateTime;
@@ -138,13 +139,18 @@ public class EnemiesManager : MonoBehaviour
 
     private void Move()
     {
-        if (NextDirection != CurrentDirection)
+        if (IsTimeToChangeDirection()) // TODO: improve this code :D
         {
-            CurrentDirection = NextDirection; // Reset for next `GoDown` case
+            CurrentDirection = CurrentDirection.Equals(Direction.Right) ? Direction.Left : Direction.Right;
             transform.position = GoDown();
         }
         // Include both moves on purpose: Down + (Right || Left).
         transform.position = CurrentDirection.Equals(Direction.Right) ? GoRight() : GoLeft();
+    }
+
+    private bool IsTimeToChangeDirection()
+    {
+        return Enemies.Select(enemy => Math.Abs(enemy.transform.position.x) + Math.Abs(Speed)).Any(newX => newX >= AbsXBoundary);
     }
 
     private Vector2 GoDown()
@@ -162,7 +168,7 @@ public class EnemiesManager : MonoBehaviour
         return Move(transform.position.x - Speed, transform.position.y);
     }
 
-    private static Vector2 Move(float newX, float newY)
+    private static Vector2 Move(float newX, float newY) // TODO: move this function to an API
     {
         return new Vector2(newX, newY);
     }

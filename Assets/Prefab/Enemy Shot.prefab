@@ -20,13 +20,13 @@ GameObject:
   m_Component:
   - component: {fileID: 4257693243478100}
   - component: {fileID: 212775414239081858}
+  - component: {fileID: 50547286219726084}
   - component: {fileID: 61161699915901594}
-  - component: {fileID: 50822944487471658}
   - component: {fileID: 82073318701411972}
-  - component: {fileID: 114672045143099834}
+  - component: {fileID: 114375575126450722}
   m_Layer: 0
   m_Name: Enemy Shot
-  m_TagString: Shot
+  m_TagString: EnemyShot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44,7 +44,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &50822944487471658
+--- !u!50 &50547286219726084
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 1
@@ -53,12 +53,12 @@ Rigidbody2D:
   m_GameObject: {fileID: 1864709145576626}
   m_BodyType: 1
   m_Simulated: 1
-  m_UseFullKinematicContacts: 1
+  m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -169,7 +169,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114672045143099834
+--- !u!114 &114375575126450722
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -177,10 +177,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1864709145576626}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aea940639a234514bd885b4e2c208ae8, type: 3}
+  m_Script: {fileID: 11500000, guid: bd5e0ef51b2f46f6a94a7e72104909d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: -3
+  Speed: -5
+  Damage: 1
   playerExplosion: {fileID: 100008, guid: f4829dbea454201408682c1ca2c5e08c, type: 2}
   enemyExplosion: {fileID: 100012, guid: c5726687eacff204da1411a9e5273bc5, type: 2}
   asteroidExplosion: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}

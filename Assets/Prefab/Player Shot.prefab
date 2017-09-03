@@ -20,13 +20,13 @@ GameObject:
   m_Component:
   - component: {fileID: 4716913902510340}
   - component: {fileID: 212135629839832892}
+  - component: {fileID: 50609294163439230}
   - component: {fileID: 61178411042558496}
-  - component: {fileID: 50391949545995704}
-  - component: {fileID: 114633505770399538}
   - component: {fileID: 82111142762658760}
+  - component: {fileID: 114338468238736724}
   m_Layer: 0
   m_Name: Player Shot
-  m_TagString: Shot
+  m_TagString: PlayerShot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44,7 +44,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &50391949545995704
+--- !u!50 &50609294163439230
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 1
@@ -53,12 +53,12 @@ Rigidbody2D:
   m_GameObject: {fileID: 1964078239063150}
   m_BodyType: 1
   m_Simulated: 1
-  m_UseFullKinematicContacts: 1
+  m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -169,7 +169,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114633505770399538
+--- !u!114 &114338468238736724
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -177,7 +177,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1964078239063150}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bad896550c2adbf4db2b25a4da56c69f, type: 3}
+  m_Script: {fileID: 11500000, guid: bd5e0ef51b2f46f6a94a7e72104909d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 10

@@ -18,14 +18,17 @@ public class PlayerShipController : MonoBehaviour
 
     public int ShotPoolSize;
     public GameObject PlayerShot;
+    public GameObject PlayerExplosion;
 
     private float _remainingCoolDownTime;
     private ShotPool ShotPool { get; set; }
+    private PlayerShipHealth PlayerShipHealth { get; set; }
     private const bool ShotPoolGrow = false;
 
     private void Start()
     {
         ShotPool = new ShotPool(ShotPoolSize, ShotPoolGrow, PlayerShot);
+        PlayerShipHealth = GetComponent<PlayerShipHealth>();
     }
 
     private void Update ()
@@ -69,5 +72,14 @@ public class PlayerShipController : MonoBehaviour
 
         // Cold down the weapon
         _remainingCoolDownTime = FireRate;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        // TODO: handle loose case when spaceships reaches some close to player
+        var shot = other.GetComponent<Shot>();
+        PlayerShipHealth.TakeShot(shot.Damage);
+        Instantiate(PlayerExplosion, transform.position, transform.rotation);
+        shot.Recycle();
     }
 }

@@ -1,15 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class DestroyByTime : MonoBehaviour {
-
-	public float lifetime;
-
-	void Start ()
-	{
-		Destroy (gameObject, lifetime);
-	}
-	
-	
+namespace VFX.Scripts
+{
+    public class DestroyByTime : MonoBehaviour
+    {
+        public float Lifetime;
+        private void Start()
+        {
+            Destroy(gameObject, Lifetime);
+        }
+    }
 }

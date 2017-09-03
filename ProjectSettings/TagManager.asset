@@ -7,6 +7,9 @@ TagManager:
   - Shot
   - Enemy
   - Asteroid
+  - TopEnemy
+  - PlayerShot
+  - EnemyShot
   layers:
   - Default
   - TransparentFX
