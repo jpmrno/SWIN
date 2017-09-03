@@ -5,6 +5,11 @@ public class Shot : MonoBehaviour
 {
     public float Speed;
 
+    public GameObject playerExplosion;
+    public GameObject enemyExplosion;
+    public GameObject asteroidExplosion;
+
+
     // ShotPool sets itself as a pool when instantiating this object.
     public ShotPool Pool { private get; set; }
 
@@ -21,8 +26,25 @@ public class Shot : MonoBehaviour
     protected void OnCollisionEnter2D(Collision2D other)
     {
         var go = other.gameObject;
-        if (go.CompareTag("Shot")) go.GetComponent<Shot>().Recycle();
-        else Destroy(other.gameObject);
+        if (go.CompareTag("Shot"))
+        {
+            go.GetComponent<Shot>().Recycle();
+        }
+        else
+        {
+            if (go.CompareTag("Player"))
+            {
+                Instantiate(playerExplosion, go.transform.position, go.transform.rotation);
+            }
+            else if(go.CompareTag("Enemy"))
+            {
+                Instantiate(enemyExplosion, go.transform.position, go.transform.rotation);
+            }else if (go.CompareTag("Asteroid"))
+            {
+                Instantiate(asteroidExplosion, go.transform.position, go.transform.rotation);
+            }
+            Destroy(other.gameObject);
+        }
         // Always recycle current shot
         Recycle();
     }

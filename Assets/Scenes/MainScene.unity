@@ -241,6 +241,222 @@ Prefab:
       propertyPath: m_Name
       value: Asteroid 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114623679349038990, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114254517808055272, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114378743968358958, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114232715801021196, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114249925081333710, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114676150927475678, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114332268056150642, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114573519803566722, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114770163786608260, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114539149965110678, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114262652762746150, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114639309877495638, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114796579465132968, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114483128762251618, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114392950045109538, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114725322379199468, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114091840198144054, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114729617708172978, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114148820037058660, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114605107947057768, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114874176775280348, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114359422532436118, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114545513464918932, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114666175500398220, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 1803931196187180, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227657111140994, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820324890507668, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990424460986344, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308830863635520, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672436737514014, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117223443331710, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285128606124740, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565408220681666, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916252191643614, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060791946045776, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494603083013042, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517965751966476, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1410690150710474, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1164580179985376, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487057778657208, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638956280908564, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1946663537174054, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764483317179204, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1847213116498156, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926390002427474, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864634358101704, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1222659276664748, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1602279921833454, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
   m_IsPrefabParent: 0
@@ -291,6 +507,222 @@ Prefab:
     - target: {fileID: 1563227515227038, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
       propertyPath: m_Name
       value: Asteroid 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114483128762251618, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114666175500398220, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114262652762746150, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114770163786608260, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114676150927475678, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114725322379199468, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114148820037058660, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114874176775280348, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114623679349038990, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114359422532436118, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114392950045109538, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114605107947057768, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114639309877495638, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114091840198144054, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114796579465132968, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114378743968358958, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114254517808055272, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114573519803566722, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114539149965110678, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114729617708172978, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114249925081333710, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114232715801021196, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114332268056150642, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114545513464918932, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 1487057778657208, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1164580179985376, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1946663537174054, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1222659276664748, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565408220681666, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820324890507668, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308830863635520, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517965751966476, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117223443331710, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1410690150710474, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1847213116498156, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060791946045776, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494603083013042, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638956280908564, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1602279921833454, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672436737514014, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227657111140994, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864634358101704, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916252191643614, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926390002427474, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764483317179204, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990424460986344, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285128606124740, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803931196187180, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
@@ -400,6 +832,222 @@ Prefab:
     - target: {fileID: 1563227515227038, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
       propertyPath: m_Name
       value: Asteroid 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114796579465132968, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114359422532436118, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114378743968358958, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114573519803566722, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114725322379199468, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114483128762251618, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114392950045109538, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114545513464918932, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114249925081333710, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114729617708172978, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114874176775280348, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114605107947057768, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114262652762746150, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114770163786608260, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114676150927475678, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114639309877495638, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114148820037058660, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114254517808055272, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114091840198144054, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114539149965110678, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114332268056150642, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114623679349038990, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114666175500398220, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114232715801021196, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 1926390002427474, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1164580179985376, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638956280908564, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060791946045776, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285128606124740, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1602279921833454, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990424460986344, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803931196187180, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117223443331710, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1946663537174054, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227657111140994, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864634358101704, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565408220681666, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672436737514014, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820324890507668, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1222659276664748, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916252191643614, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517965751966476, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764483317179204, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1410690150710474, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1847213116498156, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494603083013042, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487057778657208, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308830863635520, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
@@ -556,6 +1204,115 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa5e7c0b7d394471b858c259a1411a47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1326414870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1326414872}
+  - component: {fileID: 1326414871}
+  m_Layer: 0
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1326414871
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1326414870}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: ba19fdea260424da2b3d964cb51759d3, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.508
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!4 &1326414872
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1326414870}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5171185, y: 3.6696966, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1430451481
 GameObject:
   m_ObjectHideFlags: 0
@@ -681,6 +1438,222 @@ Prefab:
       propertyPath: m_Name
       value: Asteroid 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114332268056150642, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114796579465132968, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114249925081333710, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114573519803566722, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114545513464918932, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114639309877495638, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114359422532436118, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114392950045109538, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114666175500398220, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114725322379199468, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114676150927475678, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114091840198144054, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114148820037058660, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114770163786608260, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114262652762746150, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114483128762251618, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114605107947057768, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114539149965110678, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114378743968358958, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114623679349038990, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114874176775280348, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114232715801021196, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114729617708172978, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114254517808055272, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 1410690150710474, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1164580179985376, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285128606124740, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060791946045776, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926390002427474, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820324890507668, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117223443331710, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1602279921833454, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308830863635520, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803931196187180, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487057778657208, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1946663537174054, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672436737514014, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638956280908564, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1847213116498156, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764483317179204, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517965751966476, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990424460986344, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227657111140994, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1222659276664748, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494603083013042, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916252191643614, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864634358101704, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565408220681666, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
   m_IsPrefabParent: 0
@@ -703,7 +1676,7 @@ GameObject:
   - component: {fileID: 1490675826}
   m_Layer: 0
   m_Name: Player Ship
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -870,6 +1843,222 @@ Prefab:
     - target: {fileID: 1563227515227038, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
       propertyPath: m_Name
       value: Asteroid 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114254517808055272, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114770163786608260, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114249925081333710, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114262652762746150, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114725322379199468, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114483128762251618, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114359422532436118, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114623679349038990, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114545513464918932, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114676150927475678, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114796579465132968, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114639309877495638, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114392950045109538, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114573519803566722, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114091840198144054, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114729617708172978, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114874176775280348, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114378743968358958, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114332268056150642, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114666175500398220, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114605107947057768, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114148820037058660, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114232715801021196, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 114539149965110678, guid: a27438ca132f56a49b69c1cbf8d1c6e4,
+        type: 2}
+      propertyPath: asteroidExplosion
+      value: 
+      objectReference: {fileID: 100004, guid: e96ba85a3c9db50418505740bcb34b44, type: 2}
+    - target: {fileID: 1308830863635520, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764483317179204, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494603083013042, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1602279921833454, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672436737514014, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565408220681666, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864634358101704, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487057778657208, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926390002427474, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117223443331710, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1946663537174054, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1164580179985376, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916252191643614, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517965751966476, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990424460986344, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227657111140994, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820324890507668, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803931196187180, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060791946045776, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1410690150710474, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285128606124740, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1847213116498156, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638956280908564, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1222659276664748, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}
+      propertyPath: m_TagString
+      value: Asteroid
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a27438ca132f56a49b69c1cbf8d1c6e4, type: 2}

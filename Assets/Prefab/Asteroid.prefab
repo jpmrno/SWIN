@@ -219,7 +219,7 @@ GameObject:
   - component: {fileID: 4905162856340492}
   m_Layer: 0
   m_Name: Asteroid
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1306,6 +1306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 0}
 --- !u!114 &114148820037058660
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1317,6 +1318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 0}
 --- !u!114 &114232715801021196
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1328,6 +1330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 0}
 --- !u!114 &114249925081333710
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1339,6 +1342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 0}
 --- !u!114 &114254517808055272
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1350,6 +1354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 0}
 --- !u!114 &114262652762746150
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1361,6 +1366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 0}
 --- !u!114 &114332268056150642
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1372,6 +1378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 0}
 --- !u!114 &114359422532436118
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1383,6 +1390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 0}
 --- !u!114 &114378743968358958
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1394,6 +1402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 0}
 --- !u!114 &114392950045109538
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1405,6 +1414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 0}
 --- !u!114 &114483128762251618
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1416,6 +1426,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 0}
 --- !u!114 &114539149965110678
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1427,6 +1438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 0}
 --- !u!114 &114545513464918932
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1438,6 +1450,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 0}
 --- !u!114 &114573519803566722
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1449,6 +1462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 0}
 --- !u!114 &114605107947057768
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1460,6 +1474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 0}
 --- !u!114 &114623679349038990
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1471,6 +1486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 0}
 --- !u!114 &114639309877495638
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1482,6 +1498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 0}
 --- !u!114 &114666175500398220
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1493,6 +1510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 0}
 --- !u!114 &114676150927475678
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1504,6 +1522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 0}
 --- !u!114 &114725322379199468
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1515,6 +1534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 0}
 --- !u!114 &114729617708172978
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1526,6 +1546,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 0}
 --- !u!114 &114770163786608260
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1537,6 +1558,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 0}
 --- !u!114 &114796579465132968
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1548,6 +1570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 0}
 --- !u!114 &114874176775280348
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1559,6 +1582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidExplosion: {fileID: 0}
 --- !u!212 &212023399260879604
 SpriteRenderer:
   m_ObjectHideFlags: 1
