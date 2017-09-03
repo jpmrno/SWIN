@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 114262652762746150}
   m_Layer: 0
   m_Name: asteroid_4
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 114796579465132968}
   m_Layer: 0
   m_Name: asteroid_18
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60,7 +60,7 @@ GameObject:
   - component: {fileID: 114483128762251618}
   m_Layer: 0
   m_Name: asteroid_22
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78,7 +78,7 @@ GameObject:
   - component: {fileID: 114729617708172978}
   m_Layer: 0
   m_Name: asteroid_21
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 114874176775280348}
   m_Layer: 0
   m_Name: asteroid_13
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114,7 +114,7 @@ GameObject:
   - component: {fileID: 114666175500398220}
   m_Layer: 0
   m_Name: asteroid_7
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 114539149965110678}
   m_Layer: 0
   m_Name: asteroid_3
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -150,7 +150,7 @@ GameObject:
   - component: {fileID: 114249925081333710}
   m_Layer: 0
   m_Name: asteroid_15
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -168,7 +168,7 @@ GameObject:
   - component: {fileID: 114378743968358958}
   m_Layer: 0
   m_Name: asteroid_5
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -186,7 +186,7 @@ GameObject:
   - component: {fileID: 114639309877495638}
   m_Layer: 0
   m_Name: asteroid_16
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -204,7 +204,7 @@ GameObject:
   - component: {fileID: 114332268056150642}
   m_Layer: 0
   m_Name: asteroid_10
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -237,7 +237,7 @@ GameObject:
   - component: {fileID: 114623679349038990}
   m_Layer: 0
   m_Name: asteroid_0
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -255,7 +255,7 @@ GameObject:
   - component: {fileID: 114091840198144054}
   m_Layer: 0
   m_Name: asteroid_8
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -273,7 +273,7 @@ GameObject:
   - component: {fileID: 114232715801021196}
   m_Layer: 0
   m_Name: asteroid_6
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -291,7 +291,7 @@ GameObject:
   - component: {fileID: 114725322379199468}
   m_Layer: 0
   m_Name: asteroid_17
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -309,7 +309,7 @@ GameObject:
   - component: {fileID: 114605107947057768}
   m_Layer: 0
   m_Name: asteroid_19
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -327,7 +327,7 @@ GameObject:
   - component: {fileID: 114392950045109538}
   m_Layer: 0
   m_Name: asteroid_20
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -345,7 +345,7 @@ GameObject:
   - component: {fileID: 114573519803566722}
   m_Layer: 0
   m_Name: asteroid_12
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -363,7 +363,7 @@ GameObject:
   - component: {fileID: 114148820037058660}
   m_Layer: 0
   m_Name: asteroid_1
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -381,7 +381,7 @@ GameObject:
   - component: {fileID: 114359422532436118}
   m_Layer: 0
   m_Name: asteroid_11
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -399,7 +399,7 @@ GameObject:
   - component: {fileID: 114254517808055272}
   m_Layer: 0
   m_Name: asteroid_14
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -417,7 +417,7 @@ GameObject:
   - component: {fileID: 114545513464918932}
   m_Layer: 0
   m_Name: asteroid_2
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -435,7 +435,7 @@ GameObject:
   - component: {fileID: 114676150927475678}
   m_Layer: 0
   m_Name: asteroid_23
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -453,7 +453,7 @@ GameObject:
   - component: {fileID: 114770163786608260}
   m_Layer: 0
   m_Name: asteroid_9
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1306,7 +1306,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidExplosion: {fileID: 0}
 --- !u!114 &114148820037058660
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1318,7 +1317,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidExplosion: {fileID: 0}
 --- !u!114 &114232715801021196
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1330,7 +1328,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidExplosion: {fileID: 0}
 --- !u!114 &114249925081333710
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1342,7 +1339,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidExplosion: {fileID: 0}
 --- !u!114 &114254517808055272
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1354,7 +1350,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidExplosion: {fileID: 0}
 --- !u!114 &114262652762746150
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1366,7 +1361,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidExplosion: {fileID: 0}
 --- !u!114 &114332268056150642
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1378,7 +1372,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidExplosion: {fileID: 0}
 --- !u!114 &114359422532436118
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1390,7 +1383,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidExplosion: {fileID: 0}
 --- !u!114 &114378743968358958
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1402,7 +1394,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidExplosion: {fileID: 0}
 --- !u!114 &114392950045109538
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1414,7 +1405,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidExplosion: {fileID: 0}
 --- !u!114 &114483128762251618
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1426,7 +1416,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidExplosion: {fileID: 0}
 --- !u!114 &114539149965110678
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1438,7 +1427,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidExplosion: {fileID: 0}
 --- !u!114 &114545513464918932
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1450,7 +1438,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidExplosion: {fileID: 0}
 --- !u!114 &114573519803566722
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1462,7 +1449,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidExplosion: {fileID: 0}
 --- !u!114 &114605107947057768
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1474,7 +1460,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidExplosion: {fileID: 0}
 --- !u!114 &114623679349038990
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1486,7 +1471,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidExplosion: {fileID: 0}
 --- !u!114 &114639309877495638
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1498,7 +1482,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidExplosion: {fileID: 0}
 --- !u!114 &114666175500398220
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1510,7 +1493,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidExplosion: {fileID: 0}
 --- !u!114 &114676150927475678
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1522,7 +1504,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidExplosion: {fileID: 0}
 --- !u!114 &114725322379199468
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1534,7 +1515,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidExplosion: {fileID: 0}
 --- !u!114 &114729617708172978
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1546,7 +1526,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidExplosion: {fileID: 0}
 --- !u!114 &114770163786608260
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1558,7 +1537,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidExplosion: {fileID: 0}
 --- !u!114 &114796579465132968
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1570,7 +1548,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidExplosion: {fileID: 0}
 --- !u!114 &114874176775280348
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1582,7 +1559,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47746a8c0bcaf6d418d9f43fc70731e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidExplosion: {fileID: 0}
 --- !u!212 &212023399260879604
 SpriteRenderer:
   m_ObjectHideFlags: 1
