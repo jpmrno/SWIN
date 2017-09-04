@@ -185,7 +185,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4824470553017374, guid: b7b62cb3ecbc6494697ad6d9755e37ed, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 10
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4824470553017374, guid: b7b62cb3ecbc6494697ad6d9755e37ed, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1478,8 +1478,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1326414872}
-  - component: {fileID: 1326414871}
   - component: {fileID: 1326414874}
+  - component: {fileID: 1326414871}
   - component: {fileID: 1326414873}
   m_Layer: 0
   m_Name: Background
@@ -1674,8 +1674,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxVolume: 0.5
   FadeTime: 1.5
-  main: {fileID: 1326414871}
-  secondary: {fileID: 1326414873}
+  Main: {fileID: 1326414871}
+  Secondary: {fileID: 1326414873}
 --- !u!1 &1362205537
 GameObject:
   m_ObjectHideFlags: 0
@@ -2271,7 +2271,7 @@ MonoBehaviour:
   HealthSlider: {fileID: 439939093}
   DamageImage: {fileID: 403722647}
   FlashSpeed: 5
-  FlashColor: {r: 1, g: 0, b: 0, a: 1}
+  FlashColor: {r: 1, g: 0, b: 0, a: 0.419}
 --- !u!1001 &1523812088
 Prefab:
   m_ObjectHideFlags: 0

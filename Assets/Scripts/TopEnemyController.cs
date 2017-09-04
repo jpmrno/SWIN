@@ -4,6 +4,8 @@ using Random = System.Random;
 
 public class TopEnemyController : MonoBehaviour
 {
+    public GameObject Explosion;
+
     public int Score;
 
     public float Speed;
@@ -55,11 +57,13 @@ public class TopEnemyController : MonoBehaviour
     private void Appear()
     {
         _active = true;
+        MusicController.Instance.EnterEnemy();
     }
 
     public void Disappear()
     {
         _active = false;
+        MusicController.Instance.ExitEnemy();
         transform.position = _originalPosition;
         // Set time for next appearance
         NewTimeToNextAppearance();
@@ -69,6 +73,7 @@ public class TopEnemyController : MonoBehaviour
     {
         // We consider (and should be always true) that only player shots call this function
         ScoreManager.Instance.Score += Score;
+        Instantiate(Explosion, transform.position, transform.rotation);
         other.GetComponent<Shot>().Recycle();
         Disappear();
     }
