@@ -21,7 +21,6 @@ public class EnemyController : MonoBehaviour
         {
             Instantiate(EnemyExplosion, transform.position, transform.rotation);
             ScoreManager.Instance.Score += Score;
-            other.GetComponent<Shot>().Recycle();
         }
         Destroy(gameObject);
     }

@@ -6,8 +6,7 @@ public class AsteroidCollider : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("EnemyShot") || other.CompareTag("PlayerShot")) other.GetComponent<Shot>().Recycle();
-        else Destroy(other);
+        if (!(other.CompareTag("EnemyShot") || other.CompareTag("PlayerShot"))) Destroy(other);
         Instantiate(AsteroidExplosion, other.transform.position, other.transform.rotation);
         Destroy(gameObject);
     }

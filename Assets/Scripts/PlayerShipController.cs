@@ -80,6 +80,5 @@ public class PlayerShipController : MonoBehaviour
         var shot = other.GetComponent<Shot>();
         PlayerShipHealth.TakeShot(shot.Damage);
         Instantiate(PlayerExplosion, transform.position, transform.rotation);
-        shot.Recycle();
     }
 }

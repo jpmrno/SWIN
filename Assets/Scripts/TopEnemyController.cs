@@ -74,7 +74,6 @@ public class TopEnemyController : MonoBehaviour
         // We consider (and should be always true) that only player shots call this function
         ScoreManager.Instance.Score += Score;
         Instantiate(Explosion, transform.position, transform.rotation);
-        other.GetComponent<Shot>().Recycle();
         Disappear();
     }
 }

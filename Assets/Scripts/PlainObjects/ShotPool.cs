@@ -31,8 +31,8 @@ namespace PlainObjects
 
         public void RecycleShot(GameObject go)
         {
-            if (Pool.Contains(go)) return; // go has already collided with other object.
             go.SetActive(false);
+            if (Pool.Contains(go)) return; // go has already collided with other object.
             Pool.Enqueue(go);
         }
 
