@@ -40,9 +40,13 @@ namespace Enemies
         private List<GameObject> Enemies { get; set; }
         private float _remainingTimeToMove;
 
+        private const float MovingRateTimeEnemyWeightFactor = 3f;
+        private const float FireRateEnemyFactor = 1f;
+
         private float _remainingCoolDownTime;
         private ShotPool ShotPool { get; set; }
         private const bool ShotPoolGrow = false;
+        private float _enemyWeight;
 
         private readonly Random _random = new Random();
 
@@ -53,6 +57,8 @@ namespace Enemies
             Enemies = new List<GameObject>();
             _rows = CalculateRows();
             _enemiesPerRow = CalculateEnemiesPerRow();
+            var initialEnemiesCount = _rows * _enemiesPerRow;
+            _enemyWeight = 1f / initialEnemiesCount;
         }
 
         private int CalculateEnemiesPerRow()
@@ -177,6 +183,9 @@ namespace Enemies
         public void DestroyEnemy(GameObject enemy)
         {
             Enemies.Remove(enemy);
+            // With less enemies, increase moving moments and increase time between shots
+            MovingRateTime -= _enemyWeight * MovingRateTime * MovingRateTimeEnemyWeightFactor;
+            FireRate += _enemyWeight * FireRate * FireRateEnemyFactor;
         }
     }
 }

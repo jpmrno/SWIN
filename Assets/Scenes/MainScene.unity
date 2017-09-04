@@ -1849,8 +1849,8 @@ MonoBehaviour:
   GoDownSpeed: 0.25
   MovingRateTime: 0.5
   CurrentDirection: 0
-  FireRate: 0.5
-  ShotPoolSize: 5
+  FireRate: 0.2
+  ShotPoolSize: 7
   EnemyShot: {fileID: 1864709145576626, guid: 36092691227914f55af9380b55b64a4b, type: 2}
   Enemy1: {fileID: 1214407953369884, guid: c5499eafcddfb4c5180083ddd3ecd548, type: 2}
   Enemy2: {fileID: 1374508771936242, guid: 44e08045de44c4471ba0d8a2019e0711, type: 2}
