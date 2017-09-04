@@ -1,4 +1,5 @@
-﻿using Gameplay;
+﻿using System.Collections.Generic;
+using Gameplay;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,10 +9,14 @@ namespace Player
 {
     public class PlayerShipHealth : MonoBehaviour // TODO: Have to make it die
     {
+        private static readonly Color Red = new Color(0.39f, 0f, 0f, 1);
+        private static readonly Color Green = new Color(0f, 0.39f, 0f, 1);
+
         public int ScoreToLiveThreshold;
         public int HealthUnit;
         public int StartingHealth;
         public Slider HealthSlider;
+        public Image Fill;
         public Image DamageImage;
         public float FlashSpeed;
         public Color FlashColor;
@@ -23,6 +28,8 @@ namespace Player
         private void Awake()
         {
             _currentHealth = StartingHealth;
+            HealthSlider.maxValue = StartingHealth;
+            HealthSlider.minValue = 0;
             HealthSlider.value = _currentHealth;
             _isDamaged = false;
         }
@@ -37,7 +44,7 @@ namespace Player
         {
             _isDamaged = true;
             _currentHealth -= damageAmount;
-            HealthSlider.value = _currentHealth;
+            UpdateHealthSlider();
         }
 
         public void CheckScoreToGiveLife()
@@ -50,8 +57,14 @@ namespace Player
         {
             if (_currentHealth >= StartingHealth) return;
             _currentHealth += HealthUnit;
-            HealthSlider.value = _currentHealth;
+            UpdateHealthSlider();
             _givenLives++;
+        }
+
+        private void UpdateHealthSlider()
+        {
+            HealthSlider.value = _currentHealth;
+            Fill.color = Color.Lerp(Red, Green, (float) _currentHealth / StartingHealth);
         }
     }
 }

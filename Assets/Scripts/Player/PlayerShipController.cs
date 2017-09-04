@@ -42,7 +42,7 @@ namespace Player
         {
             Vector2 pos = transform.position;
             // Move input.
-            // TODO: https://docs.unity3d.com/ScriptReference/Input.GetAxis.html
+            // For analog input check: https://docs.unity3d.com/ScriptReference/Input.GetAxis.html
             if (Input.GetKey(KeyCode.LeftArrow))
             {
                 transform.position = Move(pos.x - Speed, pos.y);

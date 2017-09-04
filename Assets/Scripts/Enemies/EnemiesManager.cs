@@ -140,7 +140,7 @@ namespace Enemies
 
         private void Move()
         {
-            if (IsTimeToChangeDirection()) // TODO: improve this code :D
+            if (IsTimeToChangeDirection())
             {
                 CurrentDirection = CurrentDirection.Equals(Direction.Right) ? Direction.Left : Direction.Right;
                 transform.position = GoDown();
@@ -169,7 +169,7 @@ namespace Enemies
             return Move(transform.position.x - Speed, transform.position.y);
         }
 
-        private static Vector2 Move(float newX, float newY) // TODO: move this function to an API
+        private static Vector2 Move(float newX, float newY)
         {
             return new Vector2(newX, newY);
         }
