@@ -2,7 +2,7 @@
 using System.Linq;
 using UnityEngine;
 
-namespace PlainObjects
+namespace Weapons
 {
     public class ShotPool
     {
