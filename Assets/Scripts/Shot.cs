@@ -9,7 +9,7 @@ public class Shot : MonoBehaviour
     // ShotPool sets itself as a pool when instantiating this object.
     public ShotPool Pool { private get; set; }
 
-    public void Recycle()
+    private void Recycle()
     {
         Pool.RecycleShot(gameObject);
     }
