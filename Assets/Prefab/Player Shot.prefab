@@ -180,6 +180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd5e0ef51b2f46f6a94a7e72104909d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ShotExplosion: {fileID: 100004, guid: c43662a4d658d8d4ab3b6114bf004c97, type: 2}
   Speed: 10
   Damage: 0
 --- !u!212 &212135629839832892

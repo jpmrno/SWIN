@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 11400002}
   - component: {fileID: 8200000}
   m_Layer: 0
-  m_Name: explosion_asteroid
+  m_Name: explosion_shot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69,7 +69,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &400000
 Transform:
   m_ObjectHideFlags: 1
@@ -134,9 +134,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c07ead1c82725af4a8dd48cf1c42560c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 07313a2f99da2854084146ef914eba95, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.504
+  m_Volume: 0.461
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1426,7 +1426,7 @@ ParticleSystem:
     m_Curve:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.5
+      scalar: 0.22
       minScalar: 0.5
       maxCurve:
         serializedVersion: 2
@@ -7738,13 +7738,13 @@ ParticleSystem:
         m_Curve:
         - serializedVersion: 2
           time: 0
-          value: 1
+          value: 0.3956833
           inSlope: 0
           outSlope: 0
           tangentMode: 0
         - serializedVersion: 2
-          time: 0.25344414
-          value: 0.052816868
+          time: 0.09359306
+          value: 0.1391511
           inSlope: -1.968371
           outSlope: -1.968371
           tangentMode: 0
@@ -7756,13 +7756,13 @@ ParticleSystem:
         m_Curve:
         - serializedVersion: 2
           time: 0
-          value: -1
+          value: -0.36691284
           inSlope: 0
           outSlope: 0
           tangentMode: 0
         - serializedVersion: 2
-          time: 0.2554888
-          value: -0.10545498
+          time: 0.100963056
+          value: -0.062287867
           inSlope: 2.2937326
           outSlope: 2.2937326
           tangentMode: 0
@@ -7779,13 +7779,13 @@ ParticleSystem:
         m_Curve:
         - serializedVersion: 2
           time: 0
-          value: 1
+          value: 0.3956833
           inSlope: 0
           outSlope: 0
           tangentMode: 0
         - serializedVersion: 2
-          time: 0.18142124
-          value: 0.014560103
+          time: 0.0979404
+          value: 0.028949142
           inSlope: -2.175725
           outSlope: -2.175725
           tangentMode: 0
@@ -7797,15 +7797,15 @@ ParticleSystem:
         m_Curve:
         - serializedVersion: 2
           time: 0
-          value: -0.9905213
+          value: -0.34304512
           inSlope: 0
           outSlope: 0
           tangentMode: 0
         - serializedVersion: 2
-          time: 0.18758579
-          value: -0.08616316
-          inSlope: 1.8976363
-          outSlope: 1.8976363
+          time: 0.10054965
+          value: -0.1005522
+          inSlope: 4.622442
+          outSlope: 4.622442
           tangentMode: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
@@ -7820,13 +7820,13 @@ ParticleSystem:
         m_Curve:
         - serializedVersion: 2
           time: 0
-          value: 1
+          value: 0.4820137
           inSlope: 0
           outSlope: 0
           tangentMode: 0
         - serializedVersion: 2
-          time: 0.26165336
-          value: 0.18722093
+          time: 0.10180229
+          value: 0.11527574
           inSlope: -1.7465911
           outSlope: -1.7465911
           tangentMode: 0
@@ -7838,13 +7838,13 @@ ParticleSystem:
         m_Curve:
         - serializedVersion: 2
           time: 0
-          value: -1
+          value: -0.42445374
           inSlope: 0
           outSlope: 0
           tangentMode: 0
         - serializedVersion: 2
-          time: 0.2698626
-          value: -0.10055226
+          time: 0.10467094
+          value: -0.08616322
           inSlope: 1.82247
           outSlope: 1.82247
           tangentMode: 0

@@ -1,9 +1,13 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace Weapons
 {
     public class Shot : MonoBehaviour
     {
+        
+        public GameObject ShotExplosion;
+
         public float Speed;
         public int Damage;
 
@@ -30,6 +34,10 @@ namespace Weapons
         private void OnCollisionEnter2D(Collision2D other)
         {
             Recycle();
+            if (other.gameObject.CompareTag("EnemyShot") && this.CompareTag("PlayerShot"))
+            {
+                    Instantiate(ShotExplosion, transform.position, transform.rotation);   
+            }
             Shot shot = other.gameObject.GetComponent<Shot>();
             // If they are both the same kind of shots => do not recycle the other shot (just one)
             if (shot == null || other.gameObject.CompareTag(gameObject.tag)) return;
