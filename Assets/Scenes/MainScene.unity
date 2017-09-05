@@ -1844,6 +1844,7 @@ MonoBehaviour:
   EndSpawnPosition: {x: 6.5, y: 2.5}
   HorizontalDistBetweenEnemies: 1.4
   VerticalDistBetweenEnemies: 1
+  AbsYBoundary: 1.5
   AbsXBoundary: 8
   Speed: 0.1
   GoDownSpeed: 0.25

@@ -21,6 +21,7 @@ namespace Enemies
         public float HorizontalDistBetweenEnemies;
         public float VerticalDistBetweenEnemies;
 
+        public float AbsYBoundary;
         public float AbsXBoundary;
         public float Speed;
         public float GoDownSpeed;
@@ -141,7 +142,16 @@ namespace Enemies
             if (!(_remainingTimeToMove < 0)) return;
             // Time to move.
             Move();
+            CheckIfInvasionIsCompleted();
             _remainingTimeToMove = MovingRateTime;
+        }
+
+        // Handle game over case when enemies have reached some close to player
+        private void CheckIfInvasionIsCompleted()
+        {
+            if (!Enemies.Any(enemy => Math.Abs(enemy.transform.position.y) <= AbsYBoundary)) return;
+            // TODO: Game Over animation here
+            Debug.Log("GAME OVER");
         }
 
         private void Move()
@@ -186,7 +196,6 @@ namespace Enemies
             // With less enemies, increase moving moments and increase time between shots
             MovingRateTime -= _enemyWeight * MovingRateTime * MovingRateTimeEnemyWeightFactor;
             FireRate += _enemyWeight * FireRate * FireRateEnemyFactor;
-            // TODO: handle loose case when spaceships reaches some close to player
             if (Enemies.Any()) return;
             // TODO: WIN animation here
             Debug.Log("WIN! :D");
