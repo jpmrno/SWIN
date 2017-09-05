@@ -29,7 +29,7 @@ namespace Gameplay
 
         private void Awake()
         {
-            Instance = this;
+            if (Instance == null) Instance = this; // else, this instance will not be used at all
             _score = 0;
             var playerShip = GameObject.FindGameObjectWithTag(PlayerShipTag);
             _playerShipHealth = playerShip.GetComponent<PlayerShipHealth>();

@@ -15,7 +15,7 @@ namespace Resources
 
         private void Awake()
         {
-            Instance = this;
+            if (Instance == null) Instance = this; // else, this instance will not be used at all
         }
 
         private void Start ()

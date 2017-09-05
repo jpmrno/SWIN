@@ -52,7 +52,7 @@ namespace Enemies
 
         private void Awake()
         {
-            Instance = this;
+            if (Instance == null) Instance = this; // else, this instance will not be used at all
             ShotPool = new ShotPool(ShotPoolSize, ShotPoolGrow, EnemyShot);
             Enemies = new List<GameObject>();
             _rows = CalculateRows();
