@@ -12,6 +12,8 @@ namespace Player
 
     public class PlayerShipController : MonoBehaviour
     {
+        public Animator Animator;
+        
         public Transform ShotSpawn;
         public Boundary1D Boundary;
 
@@ -86,7 +88,7 @@ namespace Player
         public void Destroyed()
         {
             // TODO: Game Over animation here
-            Debug.Log("GAME OVER");
+            Animator.SetTrigger("Game Over");
             Destroy(gameObject);
         }
     }

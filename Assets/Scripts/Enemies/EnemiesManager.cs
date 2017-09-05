@@ -16,6 +16,8 @@ namespace Enemies
 
         public static EnemiesManager Instance { get; private set; }
 
+        public Animator Animator;
+
         public Vector2 InitSpawnPosition;
         public Vector2 EndSpawnPosition;
         public float HorizontalDistBetweenEnemies;
@@ -150,8 +152,7 @@ namespace Enemies
         private void CheckIfInvasionIsCompleted()
         {
             if (!Enemies.Any(enemy => Math.Abs(enemy.transform.position.y) <= AbsYBoundary)) return;
-            // TODO: Game Over animation here
-            Debug.Log("GAME OVER");
+            //Animator.SetTrigger("Game Over");
         }
 
         private void Move()
@@ -197,8 +198,7 @@ namespace Enemies
             MovingRateTime -= _enemyWeight * MovingRateTime * MovingRateTimeEnemyWeightFactor;
             FireRate += _enemyWeight * FireRate * FireRateEnemyFactor;
             if (Enemies.Any()) return;
-            // TODO: WIN animation here
-            Debug.Log("WIN! :D");
+            //Animator.SetTrigger("Victory");
             Destroy(gameObject);
         }
     }
