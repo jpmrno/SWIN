@@ -6,7 +6,7 @@ using UnityEngine.UI;
 //   https://unity3d.com/learn/tutorials/projects/survival-shooter/player-health
 namespace Player
 {
-    public class PlayerShipHealth : MonoBehaviour // TODO: Have to make it die
+    public class PlayerShipHealth : MonoBehaviour
     {
         private static readonly Color Red = new Color(0.39f, 0f, 0f, 1);
         private static readonly Color Green = new Color(0f, 0.39f, 0f, 1);

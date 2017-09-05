@@ -78,9 +78,8 @@ namespace Player
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            // TODO: handle loose case when spaceships reaches some close to player
             var shot = other.GetComponent<Shot>();
-            PlayerShipHealth.TakeShot(shot.Damage); // TODO: Destroy player if health empty inside here
+            PlayerShipHealth.TakeShot(shot.Damage); // Inside here, call `Destroyed()` if health is 0
             Instantiate(PlayerExplosion, transform.position, transform.rotation);
         }
 

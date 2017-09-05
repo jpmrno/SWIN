@@ -186,6 +186,11 @@ namespace Enemies
             // With less enemies, increase moving moments and increase time between shots
             MovingRateTime -= _enemyWeight * MovingRateTime * MovingRateTimeEnemyWeightFactor;
             FireRate += _enemyWeight * FireRate * FireRateEnemyFactor;
+            // TODO: handle loose case when spaceships reaches some close to player
+            if (Enemies.Any()) return;
+            // TODO: WIN animation here
+            Debug.Log("WIN! :D");
+            Destroy(gameObject);
         }
     }
 }
