@@ -83,5 +83,12 @@ namespace Player
             PlayerShipHealth.TakeShot(shot.Damage); // TODO: Destroy player if health empty inside here
             Instantiate(PlayerExplosion, transform.position, transform.rotation);
         }
+
+        public void Destroyed()
+        {
+            // TODO: Game Over animation here
+            Debug.Log("GAME OVER");
+            Destroy(gameObject);
+        }
     }
 }

@@ -21,6 +21,8 @@ namespace Player
         public float FlashSpeed;
         public Color FlashColor;
 
+        private const string PlayerShipTag = "Player";
+        private PlayerShipController _playerShipController;
         private int _currentHealth;
         private bool _isDamaged;
         private int _givenLives;
@@ -34,6 +36,12 @@ namespace Player
             _isDamaged = false;
         }
 
+        private void Start()
+        {
+            var playerShip = GameObject.FindGameObjectWithTag(PlayerShipTag);
+            _playerShipController = playerShip.GetComponent<PlayerShipController>();
+        }
+
         private void Update()
         {
             DamageImage.color = _isDamaged ? FlashColor : Color.Lerp(DamageImage.color, Color.clear, FlashSpeed * Time.deltaTime);
@@ -45,6 +53,7 @@ namespace Player
             _isDamaged = true;
             _currentHealth -= damageAmount;
             UpdateHealthSlider();
+            if (_currentHealth <= 0) _playerShipController.Destroyed();
         }
 
         public void CheckScoreToGiveLife()

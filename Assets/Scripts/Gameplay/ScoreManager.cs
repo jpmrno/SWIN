@@ -31,9 +31,13 @@ namespace Gameplay
         {
             if (Instance == null) Instance = this; // else, this instance will not be used at all
             _score = 0;
+            _text = GetComponent<Text>();
+        }
+
+        private void Start()
+        {
             var playerShip = GameObject.FindGameObjectWithTag(PlayerShipTag);
             _playerShipHealth = playerShip.GetComponent<PlayerShipHealth>();
-            _text = GetComponent<Text>();
         }
 
         private void Update()
