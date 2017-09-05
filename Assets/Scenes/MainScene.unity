@@ -2255,6 +2255,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ScoreToLiveThreshold: 1000
   HealthUnit: 1
+  MaxHealth: 6
   StartingHealth: 4
   HealthSlider: {fileID: 439939093}
   Fill: {fileID: 318484840}

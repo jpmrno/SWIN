@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using Gameplay;
+﻿using Gameplay;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,6 +13,7 @@ namespace Player
 
         public int ScoreToLiveThreshold;
         public int HealthUnit;
+        public int MaxHealth;
         public int StartingHealth;
         public Slider HealthSlider;
         public Image Fill;
@@ -28,7 +28,7 @@ namespace Player
         private void Awake()
         {
             _currentHealth = StartingHealth;
-            HealthSlider.maxValue = StartingHealth;
+            HealthSlider.maxValue = MaxHealth;
             HealthSlider.minValue = 0;
             HealthSlider.value = _currentHealth;
             _isDamaged = false;
@@ -64,6 +64,7 @@ namespace Player
         private void UpdateHealthSlider()
         {
             HealthSlider.value = _currentHealth;
+            // TODO: Recall that StartingHealth is consider to be always > 0
             Fill.color = Color.Lerp(Red, Green, (float) _currentHealth / StartingHealth);
         }
     }
