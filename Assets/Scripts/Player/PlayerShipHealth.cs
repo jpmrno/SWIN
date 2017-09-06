@@ -42,6 +42,7 @@ namespace Player
         {
             var playerShip = GameObject.FindGameObjectWithTag(PlayerShipTag);
             _playerShipController = playerShip.GetComponent<PlayerShipController>();
+            _givenLives = ScoreManager.Instance.Score / ScoreToLiveThreshold;
         }
 
         private void Update()
