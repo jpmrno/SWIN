@@ -21,7 +21,7 @@ public class HighScoresDisplay : MonoBehaviour
             var text = textGo.GetComponent<Text>();
 
             text.text = i + ". " + score.Key + " " + score.Value;
-            text.transform.parent = transform;
+            text.transform.SetParent(transform);
 
             if (i++ == Limit)
             {
