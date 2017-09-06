@@ -1,12 +1,12 @@
-unityproject/[Ll]ibrary/
-unityproject/[Tt]emp/
-unityproject/[Oo]bj/
-unityproject/[Bb]uild/
-unityproject/[Bb]uilds/
-unityproject/Assets/AssetStoreTools*
+tp1/unityproject/[Ll]ibrary/
+tp1/unityproject/[Tt]emp/
+tp1/unityproject/[Oo]bj/
+tp1/unityproject/[Bb]uild/
+tp1/unityproject/[Bb]uilds/
+tp1/unityproject/Assets/AssetStoreTools*
 
 # Visual Studio 2015 cache directory
-unityproject/.vs/
+tp1/unityproject/.vs/
 
 # JetBrains Rider
 .idea/
