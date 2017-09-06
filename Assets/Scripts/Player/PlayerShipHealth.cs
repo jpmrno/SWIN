@@ -11,6 +11,8 @@ namespace Player
         private static readonly Color Red = new Color(0.39f, 0f, 0f, 1);
         private static readonly Color Green = new Color(0f, 0.39f, 0f, 1);
 
+        public Storage Storage;
+
         public int ScoreToLiveThreshold;
         public int HealthUnit;
         public int MaxHealth;
@@ -20,19 +22,19 @@ namespace Player
         public Image DamageImage;
         public float FlashSpeed;
         public Color FlashColor;
+        public int CurrentHealth { get; private set; }
 
         private const string PlayerShipTag = "Player";
         private PlayerShipController _playerShipController;
-        private int _currentHealth;
         private bool _isDamaged;
         private int _givenLives;
 
         private void Awake()
         {
-            _currentHealth = StartingHealth;
+            CurrentHealth = Storage.CurrentHealth > 0 ? Storage.CurrentHealth : StartingHealth;
             HealthSlider.maxValue = MaxHealth;
             HealthSlider.minValue = 0;
-            HealthSlider.value = _currentHealth;
+            HealthSlider.value = CurrentHealth;
             _isDamaged = false;
         }
 
@@ -44,16 +46,18 @@ namespace Player
 
         private void Update()
         {
-            DamageImage.color = _isDamaged ? FlashColor : Color.Lerp(DamageImage.color, Color.clear, FlashSpeed * Time.deltaTime);
+            DamageImage.color = _isDamaged
+                ? FlashColor
+                : Color.Lerp(DamageImage.color, Color.clear, FlashSpeed * Time.deltaTime);
             _isDamaged = false;
         }
 
         public void TakeShot(int damageAmount)
         {
             _isDamaged = true;
-            _currentHealth -= damageAmount;
+            CurrentHealth -= damageAmount;
             UpdateHealthSlider();
-            if (_currentHealth <= 0) _playerShipController.Destroyed();
+            if (CurrentHealth <= 0) _playerShipController.Destroyed();
         }
 
         public void CheckScoreToGiveLife()
@@ -64,17 +68,17 @@ namespace Player
 
         private void IncrementHealth()
         {
-            if (_currentHealth >= StartingHealth) return;
-            _currentHealth += HealthUnit;
+            if (CurrentHealth >= StartingHealth) return;
+            CurrentHealth += HealthUnit;
             UpdateHealthSlider();
             _givenLives++;
         }
 
         private void UpdateHealthSlider()
         {
-            HealthSlider.value = _currentHealth;
+            HealthSlider.value = CurrentHealth;
             // TODO: Recall that StartingHealth is consider to be always > 0
-            Fill.color = Color.Lerp(Red, Green, (float) _currentHealth / StartingHealth);
+            Fill.color = Color.Lerp(Red, Green, (float) CurrentHealth / StartingHealth);
         }
     }
 }

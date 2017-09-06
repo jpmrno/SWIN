@@ -10,6 +10,7 @@ namespace Gameplay
     {
         public static ScoreManager Instance;
 
+        public Storage Storage;
         public string ScoreText;
 
         private int _score;
@@ -30,7 +31,7 @@ namespace Gameplay
         private void Awake()
         {
             if (Instance == null) Instance = this; // else, this instance will not be used at all
-            _score = 0;
+            _score = Storage.CurrentScore;
             _text = GetComponent<Text>();
         }
 

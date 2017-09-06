@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
+// TODO: Remove
 public class AnimationTrigger : MonoBehaviour
 {
     public Animator Animator;

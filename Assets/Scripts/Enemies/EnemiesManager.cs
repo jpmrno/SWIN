@@ -152,7 +152,7 @@ namespace Enemies
         private void CheckIfInvasionIsCompleted()
         {
             if (!Enemies.Any(enemy => Math.Abs(enemy.transform.position.y) <= AbsYBoundary)) return;
-            //Animator.SetTrigger("Game Over");
+            Animator.SetTrigger("Game Over");
         }
 
         private void Move()
@@ -198,7 +198,7 @@ namespace Enemies
             MovingRateTime -= _enemyWeight * MovingRateTime * MovingRateTimeEnemyWeightFactor;
             FireRate += _enemyWeight * FireRate * FireRateEnemyFactor;
             if (Enemies.Any()) return;
-            //Animator.SetTrigger("Victory");
+            Animator.SetTrigger("Victory");
             Destroy(gameObject);
         }
     }
