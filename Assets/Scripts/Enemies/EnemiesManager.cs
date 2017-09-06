@@ -198,7 +198,9 @@ namespace Enemies
             MovingRateTime -= _enemyWeight * MovingRateTime * MovingRateTimeEnemyWeightFactor;
             FireRate += _enemyWeight * FireRate * FireRateEnemyFactor;
             if (Enemies.Any()) return;
-            Animator.SetTrigger("Victory");
+            if(Animator.gameObject.activeSelf) {
+                Animator.SetTrigger("Victory");
+            }
             Destroy(gameObject);
         }
     }
