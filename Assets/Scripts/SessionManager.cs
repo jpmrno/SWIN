@@ -14,4 +14,10 @@ public class SessionManager : MonoBehaviour
         Storage.CurrentHealth = HealthManager.CurrentHealth;
         Storage.CurrentScore = ScoreManager.Instance.Score;
     }
+
+    public void ClearSession()
+    {
+        Storage.CurrentHealth = 0;
+        Storage.CurrentScore = 0;
+    }
 }
